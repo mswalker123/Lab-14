@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html ng-app = 'lab14'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="controller.js"></script>
+    <script src="controllerTwo.js"></script>
+    <script src="controllerThree.js"></script>
+    <script src="controllerFour.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+    <link type="css/bootstrap.css" />
+    <link type="css/styles.css" />
+    <title>Lab 14</title>
+</head>
+
+<body>
+  <div id = "wrapper">
+    <div id ="sidebar-wrapper">
+
+<nav>
+  <h1>CatDog & Friends</h1>
+  <a href="#/dog">Dog</a>
+  <a href = "#/cat">Cat</a>
+  <a href = "#/koi">Koi</a>
+  <a href = "#/parrot">Cat</a>
+</nav>
+  </div>
+
+  <div class="content-wrapper">
+
+    <div class="container">
+
+        <div class = 'row'>
+
+        <div class = 'col-lg-12'>
+          <p>
+            This page is dedicated to cats, dogs, and other animals! Enjoy!
+          </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<ng-view></ng-view>
+</body>
+
+</html>
